@@ -46,7 +46,7 @@ pipeline {
           steps {
               sh 'pwd'
               sh 'sleep 20s'
-              sh 'echo hello2'
+              sh 'echo andygood'
               sh 'python ./test/test.py'
             
           }
